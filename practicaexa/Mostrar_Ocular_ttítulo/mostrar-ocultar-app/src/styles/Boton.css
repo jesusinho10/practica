@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body{
+    background-color: aqua;
+  }
+  h1 {
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 150%;
+    margin-left: 30%;
+    height: 100vh;
+  }
+  button {
+    background-color: rgb(2, 61, 224);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }

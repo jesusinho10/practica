@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(158, 0, 0, 0.623);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  button {
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin: 15px 5px;
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Sombra */
+    cursor: pointer;  /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease;  /* Transición suave del color de fondo */
+  }
+  
+  button:nth-of-type(1) {
+    background: rgba(245, 0, 0, 0.76);
+  }
+  
+  button:nth-of-type(2) {
+    background: rgb(229, 255, 0);
+  }
+  
+  button:nth-of-type(3) {
+    background: rgb(3, 216, 49);
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.1);  /* Cambia el color de fondo al pasar sobre el botón */
+  }
+  .conte{
+    margin: auto;
+    text-align: center;
+  }
